@@ -2,7 +2,7 @@ version: '3'
 
 services:
   aihanddetection:
-    image: aihanddetection
+    image: irishSignLanguage
     build:
       context: .
       dockerfile: Dockerfile
