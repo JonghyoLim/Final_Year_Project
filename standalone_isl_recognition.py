@@ -27,7 +27,7 @@ TOTAL_DATASET = 2515
 img_rows, img_cols = 400, 400
 img_channels = 3
 batch_size = 32
-nb_epoch = 100
+nb_epoch = 23
 nb_classes = 36
 
 # Dictionary for classes from char to numbers
@@ -96,7 +96,7 @@ def create_model(input_shape):
 def train_model(model, X_train, Y_train):
     """Train the model using SGD"""
     print("Training model...")
-    sgd = SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
+    sgd = SGD(learning_rate=0.001, momentum=0.9, nesterov=True)
     model.compile(loss='categorical_crossentropy',
                   optimizer=sgd,
                   metrics=['accuracy'])
