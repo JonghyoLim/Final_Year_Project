@@ -486,18 +486,6 @@ This project was inspired by the need for accessible communication tools for the
 
 ---
 
-## 📞 Contact
-
-**Project Author**: Jonghyo Lim
-
-**GitHub**: [@JonghyoLim](https://github.com/JonghyoLim)
-
-**Email**: hyokun07@gmail.com
-
-**Repository**: [Final_Year_Project](https://github.com/JonghyoLim/Final_Year_Project)
-
----
-
 ## 📊 Project Stats
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/JonghyoLim/Final_Year_Project)
